@@ -1,0 +1,86 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.808317",
+   "Default View_TopLeft":"-139,-78",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 6 -x 1790 -y 580 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x 0 -y 720 -defaultsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x 0 -y 800 -defaultsOSRD
+preplace port port-id_servo1_0 -pg 1 -lvl 6 -x 1790 -y 350 -defaultsOSRD
+preplace port port-id_servo2_0 -pg 1 -lvl 6 -x 1790 -y 380 -defaultsOSRD
+preplace port port-id_servo3_0 -pg 1 -lvl 6 -x 1790 -y 410 -defaultsOSRD
+preplace port port-id_servo4_0 -pg 1 -lvl 6 -x 1790 -y 440 -defaultsOSRD
+preplace port port-id_servo5_0 -pg 1 -lvl 6 -x 1790 -y 470 -defaultsOSRD
+preplace port port-id_servo6_0 -pg 1 -lvl 6 -x 1790 -y 500 -defaultsOSRD
+preplace port port-id_cam_href_0 -pg 1 -lvl 0 -x 0 -y 190 -defaultsOSRD
+preplace port port-id_cam_pclk_0 -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace port port-id_cam_pwdn_0 -pg 1 -lvl 6 -x 1790 -y 140 -defaultsOSRD
+preplace port port-id_cam_rst_o_0 -pg 1 -lvl 6 -x 1790 -y 80 -defaultsOSRD
+preplace port port-id_cam_scl_0 -pg 1 -lvl 6 -x 1790 -y 20 -defaultsOSRD
+preplace port port-id_cam_sda_0 -pg 1 -lvl 6 -x 1790 -y 50 -defaultsOSRD
+preplace port port-id_cam_vsync_0 -pg 1 -lvl 0 -x 0 -y 130 -defaultsOSRD
+preplace port port-id_cam_xclk_0 -pg 1 -lvl 6 -x 1790 -y 110 -defaultsOSRD
+preplace port port-id_vga_hsync_0 -pg 1 -lvl 6 -x 1790 -y 260 -defaultsOSRD
+preplace port port-id_vga_vsync_0 -pg 1 -lvl 6 -x 1790 -y 290 -defaultsOSRD
+preplace portBus cam_d_0 -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace portBus led_out_0 -pg 1 -lvl 6 -x 1790 -y 320 -defaultsOSRD
+preplace portBus vga_blue_0 -pg 1 -lvl 6 -x 1790 -y 230 -defaultsOSRD
+preplace portBus vga_green_0 -pg 1 -lvl 6 -x 1790 -y 200 -defaultsOSRD
+preplace portBus vga_red_0 -pg 1 -lvl 6 -x 1790 -y 170 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 390 -y 740 -defaultsOSRD
+preplace inst clk_wiz -pg 1 -lvl 1 -x 110 -y 790 -defaultsOSRD
+preplace inst microblaze_riscv_0 -pg 1 -lvl 3 -x 860 -y 570 -defaultsOSRD
+preplace inst microblaze_riscv_0_local_memory -pg 1 -lvl 4 -x 1290 -y 580 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 2 -x 390 -y 570 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 5 -x 1600 -y 590 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 4 -x 1290 -y 400 -defaultsOSRD
+preplace inst my_pwm_6ch_0 -pg 1 -lvl 5 -x 1600 -y 420 -defaultsOSRD
+preplace inst myip_cam_shape_0 -pg 1 -lvl 5 -x 1600 -y 170 -defaultsOSRD
+preplace netloc reset_1 1 0 2 20 720 NJ
+preplace netloc microblaze_riscv_0_Clk 1 1 4 200 490 600 470 1150 320 1450
+preplace netloc sys_clock_1 1 0 1 NJ 800
+preplace netloc proc_sys_reset_0_mb_reset 1 2 1 600 600n
+preplace netloc proc_sys_reset_0_bus_struct_reset 1 2 2 590J 480 1120
+preplace netloc mdm_1_debug_sys_rst 1 1 2 210 500 570
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 3 580J 460 1130 310 1460
+preplace netloc my_pwm_6ch_0_servo1 1 5 1 1770J 350n
+preplace netloc my_pwm_6ch_0_servo2 1 5 1 1740J 380n
+preplace netloc my_pwm_6ch_0_servo3 1 5 1 NJ 410
+preplace netloc my_pwm_6ch_0_servo4 1 5 1 1770J 430n
+preplace netloc my_pwm_6ch_0_servo5 1 5 1 1770J 450n
+preplace netloc my_pwm_6ch_0_servo6 1 5 1 1740J 470n
+preplace netloc cam_d_0_1 1 0 5 NJ 100 NJ 100 NJ 100 NJ 100 1430J
+preplace netloc cam_href_0_1 1 0 5 NJ 190 NJ 190 NJ 190 NJ 190 1460J
+preplace netloc cam_pclk_0_1 1 0 5 NJ 160 NJ 160 NJ 160 NJ 160 NJ
+preplace netloc myip_cam_shape_0_cam_pwdn 1 5 1 1740J 140n
+preplace netloc myip_cam_shape_0_cam_rst_o 1 5 1 1760J 80n
+preplace netloc myip_cam_shape_0_cam_scl 1 5 1 1740J 20n
+preplace netloc Net 1 5 1 1750J 50n
+preplace netloc cam_vsync_0_1 1 0 5 NJ 130 NJ 130 NJ 130 NJ 130 1460J
+preplace netloc myip_cam_shape_0_cam_xclk 1 5 1 1770J 110n
+preplace netloc myip_cam_shape_0_led_out 1 5 1 1740J 270n
+preplace netloc myip_cam_shape_0_vga_blue 1 5 1 1770J 210n
+preplace netloc myip_cam_shape_0_vga_green 1 5 1 1770J 190n
+preplace netloc myip_cam_shape_0_vga_hsync 1 5 1 1760J 230n
+preplace netloc myip_cam_shape_0_vga_red 1 5 1 NJ 170
+preplace netloc myip_cam_shape_0_vga_vsync 1 5 1 1750J 250n
+preplace netloc microblaze_riscv_0_dlmb_1 1 3 1 N 550
+preplace netloc microblaze_riscv_0_ilmb_1 1 3 1 N 570
+preplace netloc microblaze_riscv_0_debug 1 2 1 N 560
+preplace netloc axi_uartlite_0_UART 1 5 1 NJ 580
+preplace netloc microblaze_riscv_0_M_AXI_DP 1 3 1 1140 380n
+preplace netloc axi_smc_M00_AXI 1 4 1 1430 380n
+preplace netloc axi_smc_M01_AXI 1 4 1 N 400
+preplace netloc axi_smc_M02_AXI 1 4 1 1440 100n
+levelinfo -pg 1 0 110 390 860 1290 1600 1790
+pagesize -pg 1 -db -bbox -sgen -140 0 1960 860
+"
+}
+{
+   "da_axi4_cnt":"16",
+   "da_board_cnt":"7",
+   "da_clkrst_cnt":"9",
+   "da_microblaze_riscv_cnt":"6"
+}
